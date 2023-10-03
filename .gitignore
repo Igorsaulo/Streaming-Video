@@ -1,0 +1,34 @@
+# Ignorar arquivos e pastas específicos no projeto ASP.NET
+**/bin/
+**/obj/
+**/bin/
+**/*.suo
+**/*.user
+**/*.sln
+**/*.csproj
+**/*.dbmdl
+**/*.pdb
+**/*.log
+**/*.cache
+**/node_modules/
+.vscode/
+.idea/
+
+# Ignorar arquivos e pastas específicos no projeto ReactJS
+node_modules/
+/build/
+/.env
+/.env.local
+/.env.development
+/.env.test
+/.env.production
+
+# Outros arquivos temporários ou de sistema
+Thumbs.db
+.DS_Store
+
+# Logs e saídas de depuração
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
